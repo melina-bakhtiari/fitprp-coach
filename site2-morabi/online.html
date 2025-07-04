@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>برنامه آنلاین لاغری</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="navbar">
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <ul id="nav-links">
+    <li><a href="index.html">خانه</a></li>
+    <li><a href="online.html">برنامه لاغری</a></li>
+    <li><a href="dumbbell.html">تمرین با دمبل</a></li>
+    <li><a href="challenge.html">چالش ۲۱ روزه</a></li>
+  </ul>
+</nav>
+  <header class="header">
+    <h1>برنامه آنلاین لاغری</h1>
+    <p>برنامه کامل تمرین + تغذیه برای لاغری در خانه</p>
+  </header>
+
+  <section class="services">
+    <p>این برنامه شامل برنامه تمرینی اختصاصی، برنامه غذایی تنظیم‌شده بر اساس بدن شما و پشتیبانی واتساپی مستقیم است.</p>
+    <ul style="text-align: right; max-width: 600px; margin: auto;">
+      <li>برنامه تمرین روزانه با ویدیو</li>
+      <li>برنامه غذایی بر اساس هدف و وزن شما</li>
+      <li>پشتیبانی واتساپ برای انگیزه و پیگیری</li>
+    </ul>
+    <p class="price">قیمت: فقط ۷۹ هزار تومان در ماه</p>
+    <a class="whatsapp" href="https://wa.me/989123456789" target="_blank">ثبت‌نام در واتساپ</a>
+  </section>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("nav-links");
+    nav.classList.toggle("show");
+  }
+</script>
+</body>
+</html>
